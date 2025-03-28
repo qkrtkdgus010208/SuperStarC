@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 891be1c877e74b442bbd1c6331d8ec25, type: 3}
+  m_Name: DataBase_Manager
+  m_EditorClassIdentifier: 
+  bgmDataArr:
+  - clip: {fileID: 8300000, guid: 012730e24b5fab545b3f6ace57dfd487, type: 3}
+    volume: 0.3
+    bgmType: 20
+  - clip: {fileID: 8300000, guid: a3db9005d7e200948896d4bc65d20a8f, type: 3}
+    volume: 0.2
+    bgmType: 10
+  sfxDataArr:
+  - clip: {fileID: 8300000, guid: 87e081dab9d6fe0468af38c1459fb715, type: 3}
+    volume: 0.1
+    sfxType: 10
+  - clip: {fileID: 8300000, guid: cc5763a6c2ecbce498fe26c6b5122f5e, type: 3}
+    volume: 0.1
+    sfxType: 20
+  - clip: {fileID: 8300000, guid: 62dfa3ed073a9824e84202a554fe9c14, type: 3}
+    volume: 0.1
+    sfxType: 30
+  - clip: {fileID: 8300000, guid: f20a1c0126cf77347964764e6e823625, type: 3}
+    volume: 0.3
+    sfxType: 40
+  - clip: {fileID: 8300000, guid: 2c3a29294cfd39748a9d284a9fae66a0, type: 3}
+    volume: 0.08
+    sfxType: 50
+  - clip: {fileID: 8300000, guid: e520d2241b37bd944bcd0ce27002d73a, type: 3}
+    volume: 0.2
+    sfxType: 60
+  gravityScale: 3
+  jumpPower: 500
+  moveSpeed: 4
+  heightModifyValue: 1.7
+  obstacleSpawnInterval: 7
+  obstacleSpawnOffsetX: 15
+  ObstacleClassArr:
+  - {fileID: 4913861149758881095, guid: e90a88a0bf5fd324fb00eb46d33cfdba, type: 3}
+  - {fileID: 4913861149758881095, guid: 02ad7f229f312a74eb334a8123a559ed, type: 3}
+  - {fileID: 4913861149758881095, guid: 6543d0013f7fc9b4ca0a6cb7a0f2da73, type: 3}
+  - {fileID: 4913861149758881095, guid: 941d12c5fc1cae74d99f1c0c3cdb2ed5, type: 3}
+  - {fileID: 4913861149758881095, guid: 600830a4c15d39b46aec6812b8bbec3b, type: 3}
+  - {fileID: 4913861149758881095, guid: e00170d7ad88d534c84955887b52db84, type: 3}
+  - {fileID: 4913861149758881095, guid: c9d39994822c6554783d789f04b786e3, type: 3}
+  levelDataArr:
+  - conditionNum: 12
+    obstacleIDArr: 040000000500000006000000
+  - conditionNum: 9
+    obstacleIDArr: 030000000400000005000000
+  - conditionNum: 6
+    obstacleIDArr: 020000000300000004000000
+  - conditionNum: 3
+    obstacleIDArr: 010000000200000003000000
+  - conditionNum: 0
+    obstacleIDArr: 0000000001000000
+  baseFanClass: {fileID: 7768494626986762232, guid: 7f26e7316cf693c4e80c993820066788, type: 3}
+  fanDataArr:
+  - gameoverSprite: {fileID: 21300000, guid: ef7b9e288c929fa4cb442bf5c3d7c0ca, type: 3}
+    idleSpriteArr:
+    - {fileID: 21300000, guid: 40b788fe71c351e41afc32d832d48f7b, type: 3}
+    - {fileID: 21300000, guid: a76efd70e5bd6b647ae2ad699a8ffcd3, type: 3}
+  - gameoverSprite: {fileID: 21300000, guid: 497c81e5e7ca44d4b98312a7bce426e0, type: 3}
+    idleSpriteArr:
+    - {fileID: 21300000, guid: c47137d059262e34ca39e8213b0246ce, type: 3}
+    - {fileID: 21300000, guid: 959cf0fc4d3595846b81a62269d45b93, type: 3}
+  - gameoverSprite: {fileID: 21300000, guid: ff11e2eaf1d6bcf46a5776cfea8089f9, type: 3}
+    idleSpriteArr:
+    - {fileID: 21300000, guid: 563dcc4fe6fed124f9815b2a9c5b9472, type: 3}
+    - {fileID: 21300000, guid: 65fd619ad9a9a584bb9b46102dcaf849, type: 3}
+  - gameoverSprite: {fileID: 21300000, guid: 7f78b82d82ef4f448ac12103eedf4e4f, type: 3}
+    idleSpriteArr:
+    - {fileID: 21300000, guid: ffb4eccc41521c14583de55142584c1f, type: 3}
+    - {fileID: 21300000, guid: c011faafc98fec64bad076257a372f90, type: 3}
+  - gameoverSprite: {fileID: 21300000, guid: 670ce0da1c055414ab588b2562e3213f, type: 3}
+    idleSpriteArr:
+    - {fileID: 21300000, guid: a7872dcbe3be48d48a240cfb06cea9a7, type: 3}
+    - {fileID: 21300000, guid: fcf9aaa5072ce234c974ccd986b4ff9d, type: 3}
+  fanSpawnInterval: 1.5
+  fanSpawnOffsetX: 15
+  fanSpawnPosY: -6.5
+  fanAnimationInterval: 0.5
+  baseSloganClass: {fileID: 6142316484381853363, guid: 645340006b26b584bb9e1c9d6af4bc2f, type: 3}
+  sloganDataArr:
+  - sprite: {fileID: 21300000, guid: bb02898ff87ca17408bffdd9b818f25d, type: 3}
+  - sprite: {fileID: 21300000, guid: 4d7ff7524564a58439f097479593273e, type: 3}
+  - sprite: {fileID: 21300000, guid: e29d50d59e24c70449587fc622bf8417, type: 3}
+  sloganSpawnInterval: 10
+  sloganSpawnOffsetX: 15
